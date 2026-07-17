@@ -10,7 +10,25 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+# ===== Sidebar =====
+with st.sidebar:
+    st.markdown("## 🍷 Wine Classifier")
+    st.markdown("---")
+    st.markdown("""
+    **แอปพลิเคชันจำแนกประเภทไวน์**  
+    ใช้โมเดล Decision Tree ในการวิเคราะห์คุณสมบัติทางเคมีของไวน์
+    """)
+    st.markdown("---")
+    st.markdown("### 📊 ข้อมูล")
+    st.markdown("- **Dataset:** Wine Dataset")
+    st.markdown("- **Model:** Decision Tree")
+    st.markdown("- **Features:** 13 คุณสมบัติ")
+    st.markdown("- **Classes:** 3 ประเภท")
+    st.markdown("---")
+    st.markdown("### 🛠️ เทคโนโลยี")
+    st.markdown("- Python 3.x")
+    st.markdown("- scikit-learn")
+    st.markdown("- Streamlit")
 
 # โหลด Lottie จาก URL
 def load_lottieurl(url: str):
