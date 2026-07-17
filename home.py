@@ -5,23 +5,23 @@ import json
 
 # ===== ตั้งค่าหน้าเว็บ =====
 st.set_page_config(
-    page_title="🍷 Wine Classifier",
+    page_title="🍷 SVM Classifier",
     page_icon="🍷",
-    layout="wide",
+    layout="Your Data",
     initial_sidebar_state="expanded"
 )
 # ===== Sidebar =====
 with st.sidebar:
-    st.markdown("## 🍷 Wine Classifier")
+    st.markdown("## 🍷 SVM Classifier")
     st.markdown("---")
     st.markdown("""
-    **แอปพลิเคชันจำแนกประเภทไวน์**  
-    ใช้โมเดล Decision Tree ในการวิเคราะห์คุณสมบัติทางเคมีของไวน์
+    **แอปพลิเคชันจำแนกข้อมูล**  
+    ใช้โมเดล SVM ในการวิเคราะห์
     """)
     st.markdown("---")
-    st.markdown("### 📊 ข้อมูล")
+    st.markdown("### 📊 รายละเอียดของข้อมูล")
     st.markdown("- **Dataset:** Wine Dataset")
-    st.markdown("- **Model:** Decision Tree")
+    st.markdown("- **Model:** Suport Vector Machined")
     st.markdown("- **Features:** 13 คุณสมบัติ")
     st.markdown("- **Classes:** 3 ประเภท")
     st.markdown("---")
@@ -29,6 +29,7 @@ with st.sidebar:
     st.markdown("- Python 3.x")
     st.markdown("- scikit-learn")
     st.markdown("- Streamlit")
+
 
 # โหลด Lottie จาก URL
 def load_lottieurl(url: str):
