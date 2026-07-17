@@ -31,7 +31,6 @@ with st.sidebar:
     st.markdown("- scikit-learn")
     st.markdown("- Streamlit")
 
-
 # โหลด Lottie จาก URL
 def load_lottieurl(url: str):
     r = requests.get(url)
@@ -53,3 +52,4 @@ if lottie_hello:
         width=300,
         key="hello"
     )
+st.head("My Project")
