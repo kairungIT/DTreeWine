@@ -11,7 +11,7 @@ def load_lottieurl(url: str):
     return r.json()
 
 # ตัวอย่างการใช้งาน
-lottie_hello = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_Hs2j1y.json")
+lottie_hello = load_lottieurl("https://lottie.host/3f647b41-61bf-4d39-93c3-0433420604cc/8NtmEbAWmO.json")
 
 if lottie_hello:
     st_lottie(
