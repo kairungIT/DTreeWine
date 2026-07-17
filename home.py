@@ -38,9 +38,6 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-# ตัวอย่างการใช้งาน
-lottie_hello = load_lottieurl("https://lottie.host/290016a6-d650-4a32-85c7-4d77b0a892ca/4rNL8XZeZt.json")
-
 if lottie_hello:
     st_lottie(
         lottie_hello,
@@ -52,4 +49,6 @@ if lottie_hello:
         width=250,
         key="hello"
     )
+# ตัวอย่างการใช้งาน
+lottie_hello = load_lottieurl("https://lottie.host/290016a6-d650-4a32-85c7-4d77b0a892ca/4rNL8XZeZt.json")
 st.header("My Project")
