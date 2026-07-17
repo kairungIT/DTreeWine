@@ -21,7 +21,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 📊 รายละเอียดของข้อมูล")
     st.markdown("- **Dataset:** Wine Dataset")
-    st.markdown("- **Model:** Suport Vector Machined")
+    st.markdown("- **Model:** Suport Vector")
     st.markdown("- **Features:** 13 คุณสมบัติ")
     st.markdown("- **Classes:** 3 ประเภท")
     st.markdown("---")
