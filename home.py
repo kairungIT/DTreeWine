@@ -5,7 +5,7 @@ import json
 
 # ===== ตั้งค่าหน้าเว็บ =====
 st.set_page_config(
-    page_title="🍷 Wine Classifier",
+    page_title="🍷 SVM Classifier",
     page_icon="🍷",
     layout="wide",
     initial_sidebar_state="expanded"
