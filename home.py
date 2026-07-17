@@ -52,4 +52,4 @@ if lottie_hello:
         width=300,
         key="hello"
     )
-st.head("My Project")
+st.header("My Project")
