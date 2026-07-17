@@ -48,8 +48,8 @@ if lottie_hello:
         reverse=False,
         loop=True,
         quality="high",  # low | medium | high
-        height=300,
-        width=300,
+        height=250,
+        width=250,
         key="hello"
     )
 st.header("My Project")
