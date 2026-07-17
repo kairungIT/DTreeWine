@@ -38,7 +38,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 # ตัวอย่างการใช้งาน
-lottie_hello = load_lottieurl("https://lottie.host/290016a6-d650-4a32-85c7-4d77b0a892ca/4rNL8XZeZt.json")
+lottie_hello = load_lottieurl("https://lottie.host/55da8aa7-2484-4fb5-a98f-1085ea8c5b7b/IpCgPZx6jJ.json")
 if lottie_hello:
     st_lottie(
         lottie_hello,
